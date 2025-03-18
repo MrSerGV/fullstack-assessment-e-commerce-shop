@@ -40,25 +40,25 @@ However, the price of some options might depend on others. For instance, the fra
 Code Exercise Overview: This code exercise consists of defining a software architecture that could satisfy the requirements described above. In particular:
 
 1. Data model: What data model would best support this application? Can you describe it? Include table specifications (or documents if it's a non-relational database) with fields, their associations, and the meaning of each entity.
-   (answers at Data_model file)
+   (answers at [Data_model](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Data_model.md) file)
 
 2. Main user actions: Explain the main actions users would take on this e-commerce website in detail.  
-   (answers at Actions_Users_and_Administrative file)
+   (answers at [Actions_Users_and_Administrative](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Actions_Users_and_Administrative.md) file)
 
 3. Product page: This is a read operation, performed when displaying a product page for the customer to purchase. How would you present this UI? How would you calculate which options are available? How would you calculate the price depending on the customer's selections?  
-   (answers at Product_Page_and_Cart_Actions file)
+   (answers at [Product_Page_and_Cart_Actions](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Product_Page_and_Cart_Actions.md) file)
 
 4. Add to cart action: Once the customer makes their selection, there should be an "add to cart" button. What happens when the customer clicks this button? What is persisted in the database?  
-   (answers at Product_Page_and_Cart_Actions file)
+   (answers at [Product_Page_and_Cart_Actions](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Product_Page_and_Cart_Actions.md) file)
 
 5. Administrative workflows: Describe the main workflows for Marcus to manage his store.
-   (answers at Actions_Users_and_Administrative file)
+   (answers at [Actions_Users_and_Administrative](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Actions_Users_and_Administrative.md) file)
 
 6. New product creation: What information is required to create a new product? How does the database change?  
-   (answers at Create_Product_and_Part file)
+   (answers at [Create_Product_and_Part](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Create_Product_and_Part.md) file)
 
 7. Adding a new part choice: How can Marcus introduce a new rim color? Describe the UI and how the database changes.  
-   (answers at Create_Product_and_Part file)
+   (answers at [Create_Product_and_Part](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Create_Product_and_Part.md) file)
 
 8. Setting prices: How can Marcus change the price of a specific part or specify particular pricing for combinations of choices? How does the UI and database handle this?
-   (answers at Setting_prices file)
+   (answers at [Setting_prices](https://github.com/MrSerGV/fullstack-assessment-e-commerce-shop/blob/main/Setting_prices.md) file)
